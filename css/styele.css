@@ -1,0 +1,531 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+    background-color: #000000;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 2em;
+    background-color: #1e1e1e;
+}
+
+header .logo {
+    font-size: 1.5em;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1em;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+header .cta {
+    padding: 0.5em 1em;
+    background-color: #0084ff;
+    border: none;
+    border-radius: 4px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2em;
+    background-color: #242424;
+}
+
+.hero-content {
+    max-width: 50%;
+}
+
+.hero-content h1 {
+    font-size: 2.5em;
+}
+
+.hero-content p {
+    font-size: 1.2em;
+    color: #00ff00;
+}
+
+.hero-image {
+    width: 40%;
+    height: 300px;
+    background-image: url('hero.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.main {
+    text-align: center;
+    padding: 2em;
+    background-color: #1e1e1e;
+}
+
+.features {
+    padding: 2em;
+    background-color: #242424;
+}
+
+.features h2 {
+    text-align: center;
+}
+
+.feature-list {
+    display: flex;
+    justify-content: space-around;
+    gap: 1em;
+}
+
+.feature {
+    background-color: #1e1e1e;
+    padding: 1em;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.testimonials {
+    padding: 2em;
+    background-color: #1e1e1e;
+}
+
+.testimonials h2 {
+    text-align: center;
+}
+
+.testimonial-list {
+    display: flex;
+    justify-content: space-around;
+    gap: 1em;
+}
+
+.testimonial {
+    background-color: #242424;
+    padding: 1em;
+    border-radius: 8px;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 1em;
+    background-color: #1e1e1e;
+}
+
+
+.hero-content{
+padding-top: 87px; 
+margin-left: 150px;
+}
+
+.cta{
+background: rgba(234, 255, 150, 1);
+width: 212px;
+height: 40px;
+top: 778px;
+left: 844px;
+gap: 0px;
+border-radius: 4px 0px 0px 0px;
+opacity: 0px;
+
+}
+
+
+/*  */
+
+  body {
+            background-color: #000;
+            color: #fff;
+            font-family: Arial, sans-serif;
+           
+        }
+        .navbar {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 10px;
+            border-bottom: 1px solid #333;
+             padding-top: 341px;
+        }
+        .navbar a {
+            text-decoration: none;
+            color: #999;
+            padding: 10px 20px;
+            transition: color 0.3s;
+        }
+        .navbar a.active,
+        .navbar a:hover {
+            color: #fff;
+        }
+        .navbar a.active {
+            border-bottom: 2px solid #fff;
+            
+        }
+
+
+.pict{
+    width: 603px;
+ font-family: Inter;
+font-size: 18px;
+font-weight: 400;
+line-height: 28.8px;
+text-align: center;
+color: rgba(255, 255, 255, 1);
+margin-left: 450px;
+
+ }
+
+
+ .features{
+    margin-top: 300px;
+ }
+
+
+ .hero-image{
+margin-top: 131px;
+margin-left: 220px;
+ }
+
+ .imjes{
+margin-top: 406px;
+margin-left: 100px;
+ }
+
+
+
+ /*  */
+
+ body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero .content h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.2em;
+}
+
+.hero .content h2 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+
+.hero .content p {
+    font-size: 1.2em;
+    margin-bottom: 1em;
+}
+
+.hero .content .learn-more {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #4CAF50;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.hero .content .learn-more:hover {
+    background-color: #45a049;
+}
+
+.collaboration {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.collaboration .content .screenshot {
+    width: 80%;
+    max-width: 800px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.features {
+    display: flex;
+    justify-content: center;
+    padding: 50px 20px;
+    background-color: #111;
+}
+
+.feature {
+    flex: 1;
+    max-width: 300px;
+    margin: 0 10px;
+    text-align: center;
+}
+
+.feature h3 {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+.feature p {
+    font-size: 1em;
+}
+
+
+
+.content{
+margin-left: 330px;
+}
+.h2__{
+font-family: Roboto;
+font-size: 48px;
+font-weight: 400;
+line-height: 48px;
+letter-spacing: 1.2000000476837158px;
+text-align: center;
+ 
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background-color: #000;
+}
+
+.hero .content h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.2em;
+}
+
+.hero .content h2 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+
+.hero .content p {
+    font-size: 1.2em;
+    margin-bottom: 1em;
+}
+
+.hero .content .learn-more {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #4CAF50;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.hero .content .learn-more:hover {
+    background-color: #45a049;
+}
+
+.collaboration {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #000;
+}
+
+.collaboration .content .screenshot {
+    width: 80%;
+    max-width: 800px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.features {
+    display: flex;
+    justify-content: center;
+    padding: 50px 20px;
+    background-color: #111;
+}
+
+.feature {
+    flex: 1;
+    max-width: 300px;
+    margin: 0 10px;
+    text-align: center;
+}
+
+.feature h3 {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+.feature p {
+    font-size: 1em;
+}
+
+.cta {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #000;
+}
+
+.cta h2 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+
+.cta p {
+    font-size: 1.2em;
+    margin-bottom: 1em;
+}
+
+.cta .cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #000;
+    background-color: #4CAF50;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.cta .cta-button:hover {
+    background-color: yellow;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: #000;
+}
+
+.gallery img {
+    flex: 1;
+    max-width: 300px;
+    margin: 0 10px;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #111;
+    padding: 20px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.footer-column {
+    flex: 1;
+    margin: 0 10px;
+}
+
+.footer-column h4 {
+    margin-bottom: 10px;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-column ul li {
+    margin-bottom: 5px;
+}
+
+.footer-column ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-column ul li a:hover {
+    color: #4CAF50;
+}
+
+.footer-bottom {
+    text-align: center;
+    border-top: 1px solid #333;
+    padding-top: 10px;
+}
+
+.social-icons {
+    margin-bottom: 10px;
+}
+
+.social-icons a {
+    margin: 0 5px;
+}
+
+.social-icons img {
+    width: 24px;
+    height: 24px;
+}
+
+.cta1{
+color: rgba(255, 255, 255, 1);
+background-color: #000;
+}
+
+.cta2{
+background-color: aqua;
+color: #000;
+border-radius: 15px;
+}
+
+/*  */
+
+
+
+/* Add this CSS to your existing stylesheet */
+
+img {
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+img:hover {
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.6);
+}
+
+
+
+
+/* Add this CSS to your stylesheet */
+
+#particles-js {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    pointer-events: none; /* Ensure it doesn't interfere with other elements */
+}
+
+
+
+/*  */
+
+
+
+.form{
+margin: 50px;
+
+}
+
+
+
